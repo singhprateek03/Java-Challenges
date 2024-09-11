@@ -19,7 +19,7 @@ public class ArrayUtility {
         int i = 0;
         while(i < numArray.length)
         {
-            System.out.println(numArray[i] + " ");
+            System.out.print(numArray[i] + " ");
             i++;
         }
         System.out.println();
