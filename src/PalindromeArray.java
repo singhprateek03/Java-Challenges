@@ -13,7 +13,8 @@ public class PalindromeArray {
     public static boolean isPalindrome(int[] numArr){
         int i = 0;
         while(i < numArr.length / 2){
-            if(numArr[i] != numArr[numArr.length - 1 - i]){
+            if(numArr[i] != numArr[numArr.length - 1 - i]){     // yeah first element and last element ko compare karega
+                                                                // agar same hua toh aage check karta chala jayega
                 return false;
             }
             i++;
