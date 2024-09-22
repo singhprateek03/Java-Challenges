@@ -6,10 +6,7 @@ public class LowerCaseString {
 //        String name = "Hey!\nHow Are YoU ?";
 //        System.out.println(name.toLowerCase());
 
-        // **** Replace spaces with underscores ****
-//        System.out.println(name.replace(" ","_"));
-
-//        Scanner input = new Scanner(System.in);
+        // *
 //        String letter = "Dear <|name|>, Thanks a lot";
 //        String name2 = input.nextLine();
 //        System.out.println(letter.replace("<|name|>", name2));
